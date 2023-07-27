@@ -4,7 +4,6 @@
 ##This crate intends to simplify the way input from a user is read, avoiding the parsing of simple, single-type inputs.
 
 Version 1.0.0: Added basic library for standard user inputs
-
 Version 1.0.1: Updated README
 
 ```rust
