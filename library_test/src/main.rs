@@ -8,6 +8,18 @@ use input_conv;
     input.trim().to_string()
 }
 
+fn read_charvec() -> Vec<char> {
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Failed to read line");
+    input.trim().chars().collect()
+}
+
+fn read_string_notrim() -> String {
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Failed to read line");
+    input.to_string();
+}
+
 fn read_u32() -> u32 {
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to read line");
@@ -64,7 +76,23 @@ fn main() {
     let user_string = input_conv::read_string();
     println!("You entered: {}", user_string);
 
-    println!("Float 64 num:");
+    println!("Untrimmed string:");
+    let user_string = input_conv::read_string_notrim();
+    println!("You entered: {}", user_string);
+
+    println!("Float 64b num:");
     let user_num = input_conv::read_f64();
+    println!("You entered: {}", user_num);
+
+    println!("Float 32b num:");
+    let user_num = input_conv::read_f32();
+    println!("You entered: {}", user_num);
+
+    println!("Unisnged 32b num:");
+    let user_num = input_conv::read_u32();
+    println!("You entered: {}", user_num);
+
+    println!("Signed 32b num:");
+    let user_num = input_conv::read_i32();
     println!("You entered: {}", user_num);
 }
