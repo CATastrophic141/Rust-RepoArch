@@ -1,6 +1,6 @@
 [package]
 name = "input_conv"
-version = "1.0.1"
+version = "1.1.0"
 edition = "2021"
 repository = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/input_conv"
 authors = ["Rylan Simpson <https://github.com/CATastrophic141>"]
