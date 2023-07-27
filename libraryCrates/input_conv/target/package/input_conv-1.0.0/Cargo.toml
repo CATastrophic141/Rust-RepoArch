@@ -14,6 +14,7 @@ edition = "2021"
 name = "input_conv"
 version = "1.0.0"
 authors = ["Rylan Simpson <https://github.com/CATastrophic141>"]
+description = "A basic stdio extension to automatically translate basic inputs to a given type"
 homepage = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/"
 readme = "README.md"
 license = "MIT OR Apache-2.0"

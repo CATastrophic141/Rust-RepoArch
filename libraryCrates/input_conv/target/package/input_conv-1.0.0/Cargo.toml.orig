@@ -7,6 +7,7 @@ authors = ["Rylan Simpson <https://github.com/CATastrophic141>"]
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/"
 readme = "README.md"
+description = "A basic stdio extension to automatically translate basic inputs to a given type"
 
 #[dependencies]
 #std = { version = "0.0", features = ["io"] }
