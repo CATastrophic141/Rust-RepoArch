@@ -14,7 +14,9 @@ edition = "2021"
 name = "input_conv"
 version = "1.0.0"
 authors = ["Rylan Simpson <https://github.com/CATastrophic141>"]
+homepage = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/"
 readme = "README.md"
+license = "MIT OR Apache-2.0"
 repository = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/input_conv"
 
 [lib]
