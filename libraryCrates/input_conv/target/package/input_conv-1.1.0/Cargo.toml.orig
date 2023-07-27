@@ -2,10 +2,10 @@
 name = "input_conv"
 version = "1.1.0"
 edition = "2021"
-repository = "https://github.com/CATastrophic141/Rust-RepoArch/tree/main/libraryCrates/input_conv"
+repository = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/input_conv"
 authors = ["Rylan Simpson <https://github.com/CATastrophic141>"]
 license = "MIT OR Apache-2.0"
-homepage = "https://github.com/CATastrophic141/Rust-RepoArch/tree/main/libraryCrates/"
+homepage = "https://github.com/CATastrophic141/RustExercises/tree/main/libraryCrates/"
 readme = "README.md"
 description = "A basic stdio extension to automatically translate basic inputs to a given type"
 
