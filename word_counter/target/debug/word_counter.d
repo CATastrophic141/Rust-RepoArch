@@ -1,0 +1,1 @@
+/home/IS4S/Documents/Workspace/rust/word_counter/target/debug/word_counter: /home/IS4S/Documents/Workspace/rust/libraryCrates/input_conv/src/userin_conv.rs /home/IS4S/Documents/Workspace/rust/word_counter/src/main.rs

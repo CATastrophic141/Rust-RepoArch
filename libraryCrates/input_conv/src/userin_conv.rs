@@ -2,12 +2,6 @@ use std::io;
 
 #[allow(non_snake_case)]
 
-/*pub fn read_str() -> str {
-    let mut input = String::new();
-    io::stdin().read_line(&mut input).expect("Failed to read line");
-    input.trim()
-}*/
-
 pub fn read_string() -> String {
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to read line");
