@@ -26,4 +26,17 @@ fn main() {
     println!("Signed 32b num:");
     let user_num = input_conv::read_i32();
     println!("You entered: {}", user_num);
+
+    let file_path = "data_files/int_numbers.txt";
+    let mut line_reader = match input_conv::LineReader::new(file_path) {
+        Ok(lr) => lr,
+        Err(e) => {
+            eprintln!("Error: {}", e);
+            return;
+        }
+    };
+
+    while let Some(line) = line_reader.get_file_next_string().unwrap() {
+        println!("File line: {}", line);
+    }
 }
