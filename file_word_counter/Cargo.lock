@@ -5,3 +5,12 @@ version = 3
 [[package]]
 name = "file_word_counter"
 version = "0.1.0"
+dependencies = [
+ "input_conv",
+]
+
+[[package]]
+name = "input_conv"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20bc9b75cfa330ef0d8669c191c3169fee8e0558913bda6ace554b3ca73aede3"
